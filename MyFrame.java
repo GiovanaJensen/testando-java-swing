@@ -10,7 +10,7 @@ public class MyFrame extends JFrame{
         this.setSize(420,420); // sets the x-dimension and y-dimension of frame
         this.setVisible(true); // make frame visible
 
-        ImageIcon image = new ImageIcon("C:\\workspace\\java\\java_swing\\src\\logo.png"); //create an ImageIcon
+        ImageIcon image = new ImageIcon("src\\assets\\logo.png"); //create an ImageIcon
         this.setIconImage(image.getImage()); //change icon of the frame
 
         this.getContentPane().setBackground(new Color(0x123456)); //change the background

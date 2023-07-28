@@ -32,6 +32,7 @@ public class ButtonFrame extends JFrame implements ActionListener{
     public void actionPerformed(ActionEvent e){
         if(e.getSource() == button){
             System.out.println("Done");
+            // button.setEnabled(false);
         }
     }
 }

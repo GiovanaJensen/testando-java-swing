@@ -4,6 +4,8 @@ public class App {
 
         // new LabelFrame();
 
-        new Panel();
+        // new Panel();
+        
+        new ButtonFrame();
     }
 }

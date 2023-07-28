@@ -3,6 +3,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import java.awt.Color;
+import java.awt.BorderLayout;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -13,6 +14,8 @@ public class App {
         JLabel label = new JLabel();
         ImageIcon icon = new ImageIcon("src\\assets\\logo.png");
         label.setIcon(icon);
+        // label.setVerticalAlignment(JLabel.TOP);
+        label.setBounds(0,0,75,75);
 
         JPanel redPanel = new JPanel();
         redPanel.setBackground(Color.red);
@@ -25,6 +28,8 @@ public class App {
         JPanel greenPanel = new JPanel();
         greenPanel.setBackground(Color.green);
         greenPanel.setBounds(0, 250, 500, 250);
+        // greenPanel.setLayout(new BorderLayout());
+        greenPanel.setLayout(null);
 
         JFrame frame = new JFrame();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
